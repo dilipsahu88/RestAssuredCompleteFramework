@@ -11,7 +11,7 @@ public class AutomateGetRequest {
     public void validate_get_status_code(){
         given().
                 baseUri("https://api.postman.com").
-                header("x-api-key","PMAK-6aff5cc3c2f4bd0001904062-35eb7106419290daea450c7c3d1e1e0944").
+                header("x-api-key","XXX").
         when().
                 get("/workspaces").
         then().
