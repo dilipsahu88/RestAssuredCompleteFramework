@@ -21,7 +21,7 @@ public class AutomateGetRequest {
                 log().all().
                 assertThat().
                 statusCode(200).
-                body("workspaces.name", hasItems("MyWorkspace", "ChangedName"),
+                body("workspaces.name", hasItems("MyWorkspace", "MyChangedName"),
                         "workspaces.type", hasItems("team", "team"),
                         "workspaces[0].name", is(equalTo("MyWorkspace")),
                         "workspaces.size()", equalTo(2),
