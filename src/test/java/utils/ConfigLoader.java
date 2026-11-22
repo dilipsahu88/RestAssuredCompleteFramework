@@ -50,4 +50,7 @@ public class ConfigLoader {
     public static String getBaseUri() {
         return getProperty("base.uri");
     }
+    public static String getBaseUri2() {
+        return getProperty("base.uri2");
+    }
 }
