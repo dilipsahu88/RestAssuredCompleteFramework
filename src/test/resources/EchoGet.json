@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generated Schema",
+  "type": "object",
+  "properties": {
+    "args": {
+      "type": "object",
+      "properties": {}
+    },
+    "headers": {
+      "type": "object",
+      "properties": {
+        "host": {
+          "type": "string"
+        },
+        "accept-encoding": {
+          "type": "string"
+        },
+        "user-agent": {
+          "type": "string"
+        },
+        "accept": {
+          "type": "string"
+        },
+        "x-forwarded-proto": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "host",
+        "accept-encoding",
+        "user-agent",
+        "accept",
+        "x-forwarded-proto"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": [
+    "args",
+    "headers",
+    "url"
+  ]
+}
